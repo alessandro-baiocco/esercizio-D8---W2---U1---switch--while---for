@@ -204,7 +204,7 @@ crewMass = 200;
 
 if (crewMass < 500) {
   console.log("esercizio 7 : Ship is under loaded");
-} else if (crewMass > 500 && crewMass <= 700) {
+} else if (crewMass >= 500 && crewMass <= 700) {
   console.log("esercizio 7 : Ship is half loaded");
 } else if (crewMass > 700 && crewMass <= 900) {
   console.log("esercizio 7 : Warning: Load is over 700");
@@ -233,21 +233,21 @@ console.log("esercizio 8 :", starWarsCharacters);
   Una volta fatto crea un console.log per controllare la proprietà length di "characters" prima e dopo l'operazione.
 */
 
-console.log(characters);
+console.log("esercizio 9 :", characters);
 
 for (i = 0; i < characters.length; i++) {
   for (j = 0; j < femaleCharacters.length; j++)
     if (characters[i] === femaleCharacters[j].name) {
-      delete characters[i];
+      characters.splice(j, 1);
     }
 }
-console.log(characters);
+console.log("esercizio 9 : ", characters);
 
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
 
-randNum = Math.floor(Math.random() * 10);
+randNum = Math.floor(Math.random() * starWarsCharacters.length);
 
 if (randNum === 0) {
   console.log("esercizio 10 : ", starWarsCharacters[randNum], "figlio di lord fener");
