@@ -258,15 +258,23 @@ if (randNum === 0) {
 } else if (randNum === 3) {
   console.log("esercizio 10 : ", starWarsCharacters[randNum], "ex jedi passato al lato oscuro");
 } else if (randNum === 4) {
-  console.log("esercizio 10 : ", starWarsCharacters[randNum], "ma chi l'e questa qui?");
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "Figlia della senatrice di Naboo Padmé Amidala ");
 } else if (randNum === 5) {
-  console.log("esercizio 10 : ", starWarsCharacters[randNum], "manco questo lo conosco");
+  console.log(
+    "esercizio 10 : ",
+    starWarsCharacters[randNum],
+    "il figlio del contadino Cliegg Lars e il fratellastro di Anakin Skywalker."
+  );
 } else if (randNum === 6) {
-  console.log("esercizio 10 : ", starWarsCharacters[randNum], "boh chi è ?");
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "fu la fidanzata, poi moglie, di Owen Lars,");
 } else if (randNum === 7) {
-  console.log("esercizio 10 : ", starWarsCharacters[randNum], "non lo so");
+  console.log(
+    "esercizio 10 : ",
+    starWarsCharacters[randNum],
+    "ultimi droidi prodotti nella linea di R5 prodotti a basso cost"
+  );
 } else if (randNum === 8) {
-  console.log("esercizio 10 : ", starWarsCharacters[randNum], "i dont know");
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "pilota della alleanza");
 } else if (randNum === 9) {
   console.log("esercizio 10 : ", starWarsCharacters[randNum], "maestro di anakin");
 }
