@@ -246,3 +246,27 @@ console.log(characters);
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
+
+randNum = Math.floor(Math.random() * 10);
+
+if (randNum === 0) {
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "figlio di lord fener");
+} else if (randNum === 1) {
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "robot che parla troppo");
+} else if (randNum === 2) {
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "robot fedele compagno di anakin e C3PO");
+} else if (randNum === 3) {
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "ex jedi passato al lato oscuro");
+} else if (randNum === 4) {
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "ma chi l'e questa qui?");
+} else if (randNum === 5) {
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "manco questo lo conosco");
+} else if (randNum === 6) {
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "boh chi è ?");
+} else if (randNum === 7) {
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "non lo so");
+} else if (randNum === 8) {
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "i dont know");
+} else if (randNum === 9) {
+  console.log("esercizio 10 : ", starWarsCharacters[randNum], "maestro di anakin");
+}
