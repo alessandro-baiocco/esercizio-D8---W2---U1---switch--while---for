@@ -233,10 +233,12 @@ console.log("esercizio 8 :", starWarsCharacters);
   Una volta fatto crea un console.log per controllare la proprietà length di "characters" prima e dopo l'operazione.
 */
 
+console.log(characters);
+
 for (i = 0; i < characters.length; i++) {
   for (j = 0; j < femaleCharacters.length; j++)
     if (characters[i] === femaleCharacters[j].name) {
-      characters[i].delete(characters[i]);
+      delete characters[i];
     }
 }
 console.log(characters);
