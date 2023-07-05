@@ -173,7 +173,7 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
   }
 }
 
-console.log("esercizio 5", eyeColor);
+console.log("esercizio 5 : ", eyeColor);
 
 /* ESERCIZIO 6
   Usa un while loop per calcolare la massa totale dell'equipaggio. Salvala in una variabile chiamata "crewMass".
@@ -185,7 +185,7 @@ while (crewNumber < starWarsCharacters.length) {
   crewNumber = crewNumber + 1;
 }
 
-console.log("esercizio 6", crewMass);
+console.log("esercizio 6 : ", crewMass);
 
 //--------------------------------------------------------------------------
 /* ESERCIZIO 7
@@ -271,7 +271,7 @@ if (randNum === 0) {
   console.log(
     "esercizio 10 : ",
     starWarsCharacters[randNum],
-    "ultimi droidi prodotti nella linea di R5 prodotti a basso cost"
+    "ultimi droidi prodotti nella linea di R5 prodotti a basso costo"
   );
 } else if (randNum === 8) {
   console.log("esercizio 10 : ", starWarsCharacters[randNum], "pilota della alleanza");
